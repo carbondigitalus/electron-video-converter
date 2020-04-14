@@ -1,0 +1,53 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "Electron timer app",
+  "main": "index.js",
+  "scripts": {
+    "start-app": "webpack-dev-server",
+    "start-engine": "electron ."
+  },
+  "author": "Rallycoding",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-chai-expect": "^2.1.0",
+    "eslint-plugin-chai-friendly": "^0.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-mocha": "^6.2.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^1.19.2",
+    "prettier": "1.19.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-1": "^6.22.0",
+    "electron": "^1.8.8",
+    "fluent-ffmpeg": "^2.1.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "moment-duration-format": "^1.3.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-dropzone": "^3.12.2",
+    "react-redux": "^5.0.3",
+    "react-router": "^4.0.0",
+    "react-router-dom": "^4.0.0",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
